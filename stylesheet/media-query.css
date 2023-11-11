@@ -1,0 +1,61 @@
+@media (max-width: 1256px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    flex-direction: column;
+  }
+  .nav-items {
+    padding-top: 1rem;
+  }
+
+  .project-container {
+    padding: 5px;
+    margin: 10px;
+    gap: 60px;
+  }
+
+  .project-card {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+  }
+  .project-content {
+    scale: 0.5;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+  }
+  .project-content-left {
+    left: 0;
+  }
+  .project-card-head {
+    font-size: 40px;
+    width: 100%;
+  }
+  .project-subheading {
+    width: 100%;
+  }
+  #project-2 {
+    margin-left: 0;
+  }
+  #project-4 {
+    margin-left: 0;
+  }
+
+  .project-skill-container {
+    width: 100%;
+  }
+  .project-skill {
+    width: 35px;
+  }
+  .project-card:hover .project-number {
+    display: none;
+  }
+  .project-card:hover .project-content {
+    scale: 0.55;
+  }
+}
